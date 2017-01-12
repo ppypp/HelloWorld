@@ -39,6 +39,10 @@ group :development do
   gem 'spring',      '1.7.2'
   gem 'spring-watcher-listen', '2.0.0' 
 end
+
+group :production do
+  gem 'pg',           '0.18.4'
+end
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
